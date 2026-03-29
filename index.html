@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eid Mubarak Card Maker</title>
+<title>Enhanced Eid Card Maker</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@700;900&family=Tajawal:wght@700;900&display=swap" rel="stylesheet">
 
 <style>
 body{
   margin:0;
-  font-family:'Cormorant Garamond',serif;
+  font-family:'Tajawal', sans-serif;
   background:#0D2818;
   display:flex;
   flex-direction:column;
@@ -26,21 +26,55 @@ body{
   margin-bottom:20px;
 }
 
-input, textarea{
+.control-group{
+  margin-bottom:15px;
+}
+
+label{
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold;
+  color:#C9A84C;
+}
+
+input, textarea, select{
   width:100%;
   margin:8px 0;
-  padding:10px;
-  border-radius:6px;
-  border:none;
+  padding:12px;
+  border-radius:8px;
+  border:2px solid #C9A84C;
+  background:rgba(201, 168, 76, 0.1);
+  color:white;
+  font-family:inherit;
+  font-size:14px;
+}
+
+input::placeholder, textarea::placeholder{
+  color:rgba(255, 255, 255, 0.6);
+}
+
+select option{
+  background:#0D2818;
+  color:white;
 }
 
 button{
   width:100%;
-  padding:14px;
-  background:#C9A84C;
+  padding:16px;
+  background:linear-gradient(135deg, #C9A84C, #E8C97A);
   border:none;
-  font-weight:bold;
+  font-weight:900;
   cursor:pointer;
+  border-radius:8px;
+  font-size:16px;
+  color:#0D2818;
+  transition:all 0.3s ease;
+  margin-top:10px;
+}
+
+button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 20px rgba(201, 168, 76, 0.3);
 }
 
 /* Card */
@@ -57,56 +91,135 @@ button{
   text-align:center;
   padding:20px;
   box-shadow:0 20px 40px rgba(0,0,0,0.6);
+  position:relative;
+  overflow:hidden;
+}
+
+/* Islamic Pattern Overlay */
+#card::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(201, 168, 76, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(232, 201, 122, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(201, 168, 76, 0.05) 0%, transparent 70%);
+  pointer-events:none;
 }
 
 .title{
-  font-family:'Amiri',serif;
+  font-family:'Cairo', sans-serif;
   font-size:48px;
   color:#C9A84C;
+  font-weight:900;
+  text-shadow:2px 2px 4px rgba(0,0,0,0.5);
+  z-index:1;
 }
 
 .sub{
-  font-family:'Amiri',serif;
-  font-size:24px;
+  font-family:'Amiri', serif;
+  font-size:28px;
   color:#E8C97A;
+  font-weight:700;
+  z-index:1;
 }
 
 .name{
-  margin-top:10px;
-  font-size:24px;
+  margin-top:15px;
+  font-size:28px;
+  font-weight:700;
+  z-index:1;
 }
 
 .msg{
-  margin-top:10px;
-  font-style:italic;
+  margin-top:15px;
+  font-size:20px;
+  font-weight:500;
+  z-index:1;
 }
 
+/* Background styles */
+.bg-fitr{
+  background:linear-gradient(135deg,#0d3b2e,#1e7a5e);
+}
+
+.bg-adha{
+  background:linear-gradient(135deg,#8B4513,#CD853F);
+}
+
+.bg-ramadan{
+  background:linear-gradient(135deg,#1a237e,#3949ab);
+}
 </style>
 </head>
 
 <body>
 
 <div class="controls">
-  <input id="name" value="Dear Fatima" oninput="update()">
-  <textarea id="msg" oninput="update()">May this Eid bring peace and joy!</textarea>
+  <div class="control-group">
+    <label for="eidType">Eid Type:</label>
+    <select id="eidType" onchange="update()">
+      <option value="fitr">Eid ul-Fitr</option>
+      <option value="adha">Eid ul-Adha</option>
+    </select>
+  </div>
+
+  <div class="control-group">
+    <label for="background">Background Style:</label>
+    <select id="background" onchange="update()">
+      <option value="fitr">Eid ul-Fitr Green</option>
+      <option value="adha">Eid ul-Adha Gold</option>
+      <option value="ramadan">Ramadan Blue</option>
+    </select>
+  </div>
+
+  <div class="control-group">
+    <label for="name">Recipient Name:</label>
+    <input id="name" value="Dear Fatima" oninput="update()" placeholder="Enter recipient name">
+  </div>
+
+  <div class="control-group">
+    <label for="msg">Message:</label>
+    <textarea id="msg" oninput="update()" rows="3" placeholder="Enter your Eid message">May this Eid bring peace and joy!</textarea>
+  </div>
+
   <button onclick="download()">⬇ Download Card</button>
 </div>
 
-<div id="card">
-  <div class="sub">عيد مبارك</div>
-  <div class="title">Eid ul-Fitr</div>
-  <div class="sub">MUBARAK</div>
+<div id="card" class="bg-fitr">
+  <div class="sub" id="arabic">عيد مبارك</div>
+  <div class="title" id="title">Eid ul-Fitr</div>
+  <div class="sub" id="subtitle">MUBARAK</div>
   <div class="name" id="cname">Dear Fatima</div>
   <div class="msg" id="cmsg">May this Eid bring peace and joy!</div>
 </div>
 
 <script>
 function update(){
-  document.getElementById('cname').innerText =
-    document.getElementById('name').value;
-
-  document.getElementById('cmsg').innerText =
-    document.getElementById('msg').value;
+  const eidType = document.getElementById('eidType').value;
+  const background = document.getElementById('background').value;
+  const card = document.getElementById('card');
+  
+  // Update card content based on Eid type
+  if(eidType === 'fitr'){
+    document.getElementById('arabic').innerText = 'عيد مبارك';
+    document.getElementById('title').innerText = 'Eid ul-Fitr';
+    document.getElementById('subtitle').innerText = 'MUBARAK';
+  } else if(eidType === 'adha'){
+    document.getElementById('arabic').innerText = 'عيد الأضحى';
+    document.getElementById('title').innerText = 'Eid ul-Adha';
+    document.getElementById('subtitle').innerText = 'MUBARAK';
+  }
+  
+  // Update background
+  card.className = `bg-${background}`;
+  
+  // Update name and message
+  document.getElementById('cname').innerText = document.getElementById('name').value;
+  document.getElementById('cmsg').innerText = document.getElementById('msg').value;
 }
 
 /* Canvas renderer */
@@ -116,33 +229,76 @@ async function render(){
   canvas.height=800;
   const ctx=canvas.getContext('2d');
 
-  // background
-  const grad=ctx.createLinearGradient(0,0,1280,800);
-  grad.addColorStop(0,'#0d3b2e');
-  grad.addColorStop(1,'#1e7a5e');
+  const eidType = document.getElementById('eidType').value;
+  const background = document.getElementById('background').value;
+  
+  // Set background gradient based on selection
+  let grad;
+  if(background === 'fitr'){
+    grad = ctx.createLinearGradient(0,0,1280,800);
+    grad.addColorStop(0,'#0d3b2e');
+    grad.addColorStop(1,'#1e7a5e');
+  } else if(background === 'adha'){
+    grad = ctx.createLinearGradient(0,0,1280,800);
+    grad.addColorStop(0,'#8B4513');
+    grad.addColorStop(1,'#CD853F');
+  } else {
+    grad = ctx.createLinearGradient(0,0,1280,800);
+    grad.addColorStop(0,'#1a237e');
+    grad.addColorStop(1,'#3949ab');
+  }
+  
   ctx.fillStyle=grad;
   ctx.fillRect(0,0,1280,800);
 
+  // Add Islamic pattern overlay
+  ctx.globalAlpha = 0.1;
+  for(let i = 0; i < 5; i++){
+    for(let j = 0; j < 4; j++){
+      const x = (i * 256) + 128;
+      const y = (j * 200) + 100;
+      
+      ctx.beginPath();
+      ctx.arc(x, y, 60, 0, Math.PI * 2);
+      ctx.strokeStyle = '#C9A84C';
+      ctx.lineWidth = 3;
+      ctx.stroke();
+      
+      // Inner circle
+      ctx.beginPath();
+      ctx.arc(x, y, 30, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+  }
+  ctx.globalAlpha = 1;
+
   ctx.textAlign='center';
 
+  // Arabic text
   ctx.fillStyle='#E8C97A';
-  ctx.font="60px Amiri";
-  ctx.fillText("عيد مبارك",640,200);
+  ctx.font="bold 70px Amiri";
+  const arabicText = eidType === 'fitr' ? 'عيد مبارك' : 'عيد الأضحى';
+  ctx.fillText(arabicText,640,200);
 
+  // Main title
   ctx.fillStyle='#C9A84C';
-  ctx.font="90px Amiri";
-  ctx.fillText("Eid ul-Fitr",640,320);
+  ctx.font="bold 100px Cairo";
+  const titleText = eidType === 'fitr' ? 'Eid ul-Fitr' : 'Eid ul-Adha';
+  ctx.fillText(titleText,640,340);
 
+  // Subtitle
   ctx.fillStyle='#E8C97A';
-  ctx.font="40px Amiri";
-  ctx.fillText("MUBARAK",640,400);
+  ctx.font="bold 50px Amiri";
+  ctx.fillText("MUBARAK",640,420);
 
+  // Recipient name
   ctx.fillStyle='white';
-  ctx.font="40px serif";
-  ctx.fillText(document.getElementById('name').value,640,480);
+  ctx.font="bold 50px Tajawal";
+  ctx.fillText(document.getElementById('name').value,640,500);
 
-  ctx.font="28px serif";
-  wrap(ctx, document.getElementById('msg').value,640,540,800,40);
+  // Message with text wrapping
+  ctx.font="bold 35px Tajawal";
+  wrap(ctx, document.getElementById('msg').value,640,560,900,45);
 
   return canvas;
 }
@@ -174,7 +330,8 @@ async function download(){
 
     const a=document.createElement("a");
     a.href=url;
-    a.download="eid-card.png";
+    const eidType = document.getElementById('eidType').value;
+    a.download=`eid-${eidType}-card.png`;
 
     document.body.appendChild(a);
     a.click();
@@ -183,6 +340,9 @@ async function download(){
     URL.revokeObjectURL(url);
   });
 }
+
+// Initialize on load
+update();
 </script>
 
 </body>
