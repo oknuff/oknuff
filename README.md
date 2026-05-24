@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Azizul Hakim</h1>
-<h3 align="center">A passionate engineering student from Dhaka , Bangladesh</h3>
+<h3 align="center">A non passionate engineering aspirant but trust me i CAN FUCK YOU UP EVEN IF YOU'RE MORE PASSIONATE THAN ME WHEN I LEARN STUFF</h3>
 
 - 🌱 I’m currently learning **C, html , sql**
 
