@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Azizul Hakim</h1>
-<h3 align="center">A non passionate engineering aspirant but trust me even with high passion you can't me in stuff we both learn and excute </h3>
+<h3 align="center">A non passionate engineering aspirant but trust me even with high passion you can't beat me in stuff when we both learn and excute </h3>
 
 - 🌱 I’m currently learning **C, html , sql**
 
