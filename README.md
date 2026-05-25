@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Azizul Hakim</h1>
-<h3 align="center">A non passionate engineering aspirant but trust me i CAN FUCK YOU UP EVEN IF YOU'RE MORE PASSIONATE THAN ME WHEN I LEARN STUFF</h3>
+<h3 align="center">A non passionate engineering aspirant but trust me even with high passion you can't me in stuff we both learn and excute </h3>
 
 - 🌱 I’m currently learning **C, html , sql**
 
-- ⚡ Fun fact **I can't code like pro**
+- ⚡ theres no experience neither any noteable project built here yet , sadly **
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
