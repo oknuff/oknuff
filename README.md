@@ -1,16 +1,123 @@
-<h1 align="center">Hi 👋, I'm Azizul Hakim</h1>
-<h3 align="center">A non passionate engineering aspirant but trust me even with high passion you can't beat me in stuff when we both learn and excute </h3>
+<div align="center">
 
-- 🌱 I’m currently learning **C, html , sql**
+```
+ █████╗ ███████╗██╗███████╗██╗   ██╗██╗
+██╔══██╗╚══███╔╝██║╚══███╔╝██║   ██║██║
+███████║  ███╔╝ ██║  ███╔╝ ██║   ██║██║
+██╔══██║ ███╔╝  ██║ ███╔╝  ██║   ██║██║
+██║  ██║███████╗██║███████╗╚██████╔╝███████╗
+╚═╝  ╚═╝╚══════╝╚═╝╚══════╝ ╚═════╝ ╚══════╝
+```
 
-- ⚡ theres no experience neither any noteable project built here yet , sadly **
+### — Azizul Hakim —
+#### *Engineering aspirant. Raw ambition. Unstoppable work ethic.*
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/azizul4k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="azizul4k" height="30" width="40" /></a>
-<a href="https://fb.com/uniqueapi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="uniqueapi" height="30" width="40" /></a>
-<a href="https://instagram.com/4rishad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="4rishad" height="30" width="40" /></a>
-</p>
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/azizul4k)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://fb.com/uniqueapi)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/4rishad)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg" alt="nestjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
+</div>
+
+---
+
+## ⚡ The honest truth about me
+
+> *"I'm not going to pretend I'm passionate 24/7. But give me a problem, point me at it, and I will outwork anyone in the room — passionate or not."*
+
+I'm **Azizul Hakim**, a self-driven learner from **Dhaka, Bangladesh** 🇧🇩 grinding my way into software engineering. No fancy portfolio yet. No big projects to show off. Just a relentless work ethic, a clear head, and the hunger to build things that matter.
+
+**What I bring to the table:**
+- 🔩 Consistency over motivation — I show up even when I don't feel like it
+- 🧩 A problem-first mindset — I learn what I *need* to solve what's in front of me
+- 💬 Radical honesty — no fake hype, no inflated claims
+- 🚀 A long-term bet on myself — the scoreboard is early
+
+---
+
+## 🌱 Currently learning
+
+```bash
+$ cat current_stack.txt
+
+  C          ████████░░░░  [ Fundamentals → Problem Solving ]
+  HTML       ██████░░░░░░  [ Structure → Semantics ]
+  SQL        █████░░░░░░░  [ Queries → Database Design ]
+
+  Status: ACTIVE — shipped today ✓
+```
+
+---
+
+## 🛠️ On the radar (exploring & experimenting)
+
+<div align="center">
+
+| Systems & Backend | Web & Data | Design & Creative | Game Dev |
+|:-:|:-:|:-:|:-:|
+| ![C](https://img.shields.io/badge/C-%2300599C.svg?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) | ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat-square&logo=postgresql&logoColor=white) | ![Photoshop](https://img.shields.io/badge/Photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?style=flat-square&logo=blender&logoColor=white) | ![Unity](https://img.shields.io/badge/Unity-%23000000.svg?style=flat-square&logo=unity&logoColor=white) ![Unreal](https://img.shields.io/badge/Unreal-%23313131.svg?style=flat-square&logo=unrealengine&logoColor=white) |
+| ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white) | ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) | ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white) |
+
+</div>
+
+---
+
+## 🗺️ The roadmap (publicly committing)
+
+```
+2025 — FOUNDATION
+  [✓] Start learning C seriously
+  [✓] Pick up HTML basics
+  [✓] Get comfortable with SQL
+  [ ] Build first real project (anything that runs)
+  [ ] Push consistent commits to GitHub
+
+2026 — BUILD PHASE
+  [ ] Complete a small web project end-to-end
+  [ ] Solve 50+ coding challenges
+  [ ] Get comfortable with one backend framework
+  [ ] Open source something, no matter how small
+
+BEYOND — ACE IT
+  [ ] Internship / real-world experience
+  [ ] Contribute to a project people actually use
+  [ ] Help someone else get started
+```
+
+---
+
+## 📊 GitHub stats
+
+<div align="center">
+
+![Azizul's GitHub stats](https://github-readme-stats.vercel.app/api?username=azizul4k&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=azizul4k&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 💬 A word before you scroll away
+
+Most GitHub profiles you'll see are polished — years of commits, impressive repos, shiny tech stacks. Mine isn't that. Not yet.
+
+What I can promise you:
+
+> 🔥 **I will outlearn my starting point.**
+> Every week I'm here, I'll be better than the last.
+> The repos will grow. The projects will ship.
+> The story is still being written — check back.
+
+If you're also starting out, let's connect. If you want to collaborate on something small, I'm in. If you just want to follow the journey of someone grinding from zero — hit that follow button.
+
+---
+
+<div align="center">
+
+*"The gap between where I am and where I'm going is just time and work. I control both."*
+
+**— Azizul Hakim, Dhaka 🇧🇩**
+
+![Profile views](https://komarev.com/ghpvc/?username=azizul4k&color=blueviolet&style=flat-square)
+
+</div>
